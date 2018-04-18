@@ -3,5 +3,5 @@ using namespace std;
 
 struct todo
 {
-	char time[250], task[250];
+	char time[100], task[100];
 };
