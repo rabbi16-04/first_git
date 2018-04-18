@@ -40,3 +40,8 @@ void showTasks()
 	cout << endl;
 	fileRead.close();
 }
+
+void deleteTask()
+{
+    
+}
