@@ -19,3 +19,8 @@ void addTask()
 	cout << "Added!\n";
 	fileWrite.close();
 }
+
+void showTasks()
+{
+    
+}
