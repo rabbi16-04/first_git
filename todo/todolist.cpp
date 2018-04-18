@@ -45,3 +45,35 @@ void deleteTask()
 {
     
 }
+
+int main()
+{
+	while(true)
+	{
+		cout << "a) Add Tasks\n";
+		cout << "c) Show Tasks\n";
+		cout << "b) Delete Tasks\n";
+		cout << "d) Exit\n";
+
+		char option;
+		cin >> option;
+
+		switch(option)
+		{
+			case('d'):
+				exit(EXIT_SUCCESS);
+			case('c'):
+				showTasks();
+				break;
+			case('b'):
+				deleteTask();
+				break;
+			case('a'):
+				addTask();
+				break;
+			default:
+				cout << "Invalid option!\n";
+		}
+	}
+	return 0;
+}
